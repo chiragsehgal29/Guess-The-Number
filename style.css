@@ -1,0 +1,122 @@
+html {
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    width: 90%;
+    max-width: 750px;
+    min-width: 300px;
+    margin: 0 auto;
+    background-color: #1e272e; /* Dark Gray */
+  }
+  
+  #wrapper {
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #2d3436; /* Darker Gray */
+    color: #dfe6e9; /* Light Gray */
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  h1 {
+    color: #fdcb6e; /* Yellow */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  #guess {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #74b9ff; /* Light Blue */
+  }
+  
+  #guessField {
+    color: #2d3436; /* Darker Gray */
+    width: calc(100% - 22px);
+    height: 40px;
+    font-size: 18px;
+    border: 2px solid #b2bec3; /* Light Gray */
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  #submit {
+    background-color: #00cec9; /* Light Green */
+    color: #2d3436; /* Darker Gray */
+    width: calc(100% - 20px);
+    max-width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #submit:hover {
+    background-color: #01a3a4; /* Darker Light Green */
+  }
+  
+  .guesses, .lastResult, .lowOrHi {
+    padding: 5px;
+    margin-top: 10px;
+  }
+  
+  .guesses {
+    background-color: #636e72; /* Gray */
+    color: #dfe6e9; /* Light Gray */
+    border-radius: 5px;
+  }
+  
+  .lastResult {
+    color: #d63031; /* Red */
+  }
+  
+  button {
+    background-color: #6c5ce7; /* Purple */
+    color: #fff;
+    width: calc(100% - 50px);
+    max-width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 18px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #5a4bd7; /* Darker Purple */
+    
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    p, #guess, #guessField, #subt, button {
+      font-size: 1rem;
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    #wrapper {
+      padding: 10px;
+    }
+  }
+  
